@@ -5,11 +5,12 @@ public class RequestOne {
 
 	public static void main(String[] args) {
 		int temp;
-		int temp1;
-		odczyt = new Scanner(System.in);
+		double temp1;
 		System.out.println("Podaj Stopnie w Celcjuszach, a ja przeliczę je na Farenhaity");
+		odczyt = new Scanner(System.in);
 		temp = odczyt.nextInt();
-		temp1 = (temp * 2) + 32;
+		temp1 = (temp * 1.8) + 32;
 		System.out.println("temperatura w Farnehaitach to " + temp1 + "mam blad bo nie mogę przeliczyc 1,8 a już zaczyna robić sie pozno");
 	}
 }
+	
